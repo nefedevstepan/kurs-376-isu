@@ -88,9 +88,19 @@ $developerMenuItems[] = [
 
 
 $menuItems[] = [
-    'url' => ['/test'],
+    'url' => ['/user/security/login'],
     'icon' => 'cog',
-    'label' => 'Test',
+    'label' => 'Login',
+];
+$menuItems[] = [
+    'url' => ['/user/registration/register'],
+    'icon' => 'cog',
+    'label' => 'Registration',
+];
+$menuItems[] = [
+    'url' => ['/user/settings/networks'],
+    'icon' => 'cog',
+    'label' => 'Networks',
 ];
 
 $menuItems[] = [
